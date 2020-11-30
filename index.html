@@ -6,18 +6,46 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cardo</title>
+    <title>券村Cardo - 免月費免上架費，券村Cardo給您最便利的銷售平台</title>
     <meta name="keywords" content="券村,Cardo,卷村,票券,電子票券,餐券,優惠券,庫碰券,眷村,卡多">
     <meta name="description"
         content="券村Cardo為全台灣首家結合區塊鏈的電子票券平台，提供餐飲食品、美容舒壓、休閒玩樂、旅遊住宿、藝文展覽等電子票券，每張票都有履約保證，消費者買的安心、用的放心！">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        a {
+            color: #FFFFFF;
+
+        }
+
+        a:hover {
+            color: cadetblue;
+        }
+
+        h1 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        h2 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        h3 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
 </head>
-<!--註解-->
+
 
 <body style="padding-top: 55px">
     <div class="container-fluid " style="max-width: 1500px;">
-        <!--pl = padding left = 距離左側 pl-0 pr-0-->
+
         <!--選單-->
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top align-items-center" style="background-color: #002B60">
@@ -25,11 +53,17 @@
 
             <div class="navbar-brand ml-lg-5 ml-2 " href="#">
                 <!--LOGO圖-->
-                <img src="./img/icon_logo.png" class="" style="max-height: 3vh;" alt="">
-                <!-- style="" -->
+                <a id="logo" href="https://m.yfpcardo.com/#/" title="券村Cardo">
+                    <img src="./img/icon_logo.png" style="max-height: 3vh;" alt="券村Cardo">
+                </a>
+
             </div>
 
-
+            <!--小畫面的選單按鈕-->
+            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- 選單 -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <!--justify-content-end 靠右對齊-->
@@ -40,12 +74,6 @@
                     <a class="nav-item nav-link mr-lg-5" href="#">聯絡我們</a>
                 </div>
             </div>
-            <!--小畫面的選單按鈕-->
-            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
         </nav>
 
 
@@ -56,11 +84,12 @@
             <!--左半邊-->
             <div class="col-lg-6 sm-12 align-self-center">
                 <!-- align-self-center 垂直置中 -->
-                <!-- 行動票券帶著走 享受生活不厭券 -->
+                <!-- 行動支付便利你我生活，電子票券創造企業未來營收 -->
                 <div class="row">
                     <div class="col-10 offset-1  col-sm-8 offset-sm-2  col-lg-8 offset-lg-3 ">
+                        <h1>行動支付便利你我生活，電子票券創造企業未來營收</h1>
                         <img src="./img/slogan_store.png" class="" style="width: 100%; height: auto;"
-                            alt="行動票券帶著走 享受生活不厭券">
+                            alt="行動支付便利你我生活，電子票券創造企業未來營收">
                     </div>
                 </div>
                 <!-- 我們提供各種電子票券 -->
@@ -79,13 +108,16 @@
                 <!-- 免月費 -->
                 <div class="row justify-content-around justify-content-lg-start">
                     <div class="col-lg-7 offset-lg-3 col-10 mt-lg-4">
-                        <img src="./img/banner_01.png" class="" style="width: 100%; height: auto; " alt="免月費">
+                        <h2>免月費免上架費，您還在等什麼</h2>
+                        <img src="./img/banner_01.png" class="" style="width: 100%; height: auto; "
+                            alt="免月費免上架費，您還在等什麼">
                     </div>
                 </div>
                 <!-- PC 加入我們 -->
                 <div class="row d-none d-lg-flex">
                     <div class="col-lg-5 offset-lg-3 mt-4">
-                        <img src="./img/banner_02.png" class="" style="width: 100%; height: auto; " alt="加入我們">
+                        <img src="./img/banner_02.png" class="" style="width: 100%; height: auto; "
+                            alt="加入我們！聯絡專線: 02-8261-0016，聯絡信箱: eticket@yfp.com.tw">
                     </div>
                     <div class="col-lg-3 mt-4 d-flex align-items-center justify-content-center">
                         <p
@@ -99,14 +131,15 @@
 
             <!--右半邊-->
             <div class="col-lg-6 sm-12 pr-lg-5 pb-lg-4 pb-0 ">
-                <!--style="display:flex; align-items:center;justify-content: center" 用flex水平垂直置中對齊-->
-                <img src="./img/phone_QR.png" class="pr-lg-5 " style="max-width: 100%; max-height: 100%; " alt="介紹圖">
+                <img src="./img/phone_QR.png" class="pr-lg-5 " style="max-width: 100%; max-height: 100%; "
+                    alt="券村Cardo介紹圖">
             </div>
             <div class="w-100"></div>
 
             <!-- phone 加入我們-->
             <div class="col-6  d-block d-lg-none ">
-                <img src="./img/banner_02.png" class="" style="width: 100%; height: auto; " alt="加入我們">
+                <img src="./img/banner_02.png" class="" style="width: 100%; height: auto; "
+                    alt="加入我們！聯絡專線: 02-8261-0016，聯絡信箱: eticket@yfp.com.tw">
             </div>
             <div class="col-5 d-lg-none d-flex align-items-center justify-content-center">
                 <p style="font: normal normal bold 15px Arial;  color:#0F67B2; text-shadow: 0px 0px 6px #ffffff;">
@@ -128,18 +161,20 @@
         <!-- 為何要使用電子票券？ 標題-->
         <div class="row mt-5 justify-content-around">
             <div class="col-8 col-lg-4 pt-lg-5">
+                <h2>為何要使用電子票券？</h2>
                 <img src="./img/title_01.png" class="" style="width: 100%;" alt="為何要使用電子票券？">
             </div>
         </div>
         <div class="row mt-lg-5 mt-4 justify-content-around ">
             <div class="col-10 col-lg-4 ">
-                <img src="./img/title_01-2.png" class="" style="width: 100%;" alt="行動支付的普及率逐步上升中 ...">
+                <h3>行動支付的普及率逐步上升中</h3>
+                <img src="./img/title_01-2.png" class="" style="width: 100%;" alt="行動支付的普及率逐步上升中">
             </div>
         </div>
         <div class="row mt-4 justify-content-around ">
             <div class="col-11 col-lg-6 pt-lg-4 text-lg-center">
-                <p style="font-size: 16px; font-weight:bold; color: #646668; line-height: 32px">
-                    2018年行動支付普及率已超過五成，並且逐年成長，消費習慣改變中，業者也逐漸跟著時代轉型。</p>
+                <strong style="font-size: 16px; font-weight:bold; color: #646668; line-height: 32px">
+                    2018年行動支付普及率已超過五成，並且逐年成長，消費習慣改變中，業者也逐漸跟著時代轉型。</strong>
             </div>
         </div>
         <!-- 行動支付普及率 左右 -->
@@ -148,7 +183,7 @@
                 <img src="./img/chart_01.png" class="" style="width: 100%;" alt="行動支付普及率2018超過50%，2020已達60%">
             </div>
             <div class="col-12 col-lg-3 d-none d-lg-block pl-5">
-                <img src="./img/chart_pic.png" class="" style="width: 100%;" alt="">
+                <img src="./img/chart_pic.png" class="" style="width: 100%;" alt="行動支付手機畫面">
             </div>
 
         </div>
@@ -159,12 +194,14 @@
                 style=" border-top-style:dashed; border-width:2px; border-bottom-color:#002B60;">
             </div>
             <div class="col-8 col-lg-4 pt-5 ">
+                <h2>券村Cardo，與眾不同</h2>
                 <img src="./img/title_02.png" class="" style="width: 100%;" alt="券村Cardo，與眾不同">
             </div>
         </div>
         <div class="row mt-lg-5 mt-4 justify-content-around ">
             <div class="col-10 col-lg-4 ">
-                <img src="./img/title_02-2.png" class="" style="width: 100%;" alt="為什麼券村是最便利的電子票券平台 ...">
+                <h3>為什麼券村是最便利的電子票券平台</h3>
+                <img src="./img/title_02-2.png" class="" style="width: 100%;" alt="為什麼券村是最便利的電子票券平台">
             </div>
         </div>
 
@@ -172,12 +209,13 @@
         <div class="row mt-5 justify-content-center align-items-center " style=" background-color: #F8F8F8;">
             <!-- 上 左 -->
             <div class="col-12 col-lg-5 p-0">
-                <img src="./img/photo_01.jpg" class="" style="width: 100%;" alt="">
+                <img src="./img/photo_01.jpg" class="" style="width: 100%;" alt="透過電腦和信用卡，輕鬆購買電子票券">
             </div>
             <!-- 下 右 -->
             <div class="col-11 col-lg-7 px-lg-5 pt-5 ">
                 <div class="row pb-4 px-4 px-lg-5 mx-lg-5 justify-content-center justify-content-lg-start ">
                     <div class="col-10 p-0">
+                        <h3>免預存免審查 即時信託</h3>
                         <img src="./img/point_01.png" class="" style="width: 100%;" alt="免預存免審查 即時信託">
                     </div>
                 </div>
@@ -197,13 +235,14 @@
         <div class="row justify-content-center align-items-center flex-lg-row-reverse ">
             <!-- 上 右 -->
             <div class="col-12 col-lg-5 p-0">
-                <img src="./img/photo_02.jpg" class="" style="width: 100%;" alt="">
+                <img src="./img/photo_02.jpg" class="" style="width: 100%;" alt="紙本票券，年長者的最愛">
             </div>
             <!-- 下 左 -->
             <div class="col-11 col-lg-7 px-lg-5 pt-5 ">
                 <div class="row pb-4 px-4 px-lg-5 mx-lg-5 justify-content-center justify-content-lg-start ">
                     <div class="col-9 p-0">
-                        <img src="./img/point_02.png" class="" style="width: 100%;" alt="滿足您對紙本的需求！">
+                        <h3>滿足您對紙本票券的需求！</h3>
+                        <img src="./img/point_02.png" class="" style="width: 100%;" alt="滿足您對紙本票券的需求！">
                     </div>
                 </div>
                 <div class="row pb-4 px-lg-5 mx-lg-5 pt-2 pt-lg-4">
@@ -221,12 +260,14 @@
         <div class="row justify-content-center align-items-center" style=" background-color: #F8F8F8; ">
             <!-- 上 左 -->
             <div class="col-12 col-lg-5 p-0">
-                <img src="./img/photo_03.jpg" class="" style="width: 100%;" alt="">
+                <img src="./img/photo_03.jpg" class="" style="width: 100%;"
+                    alt="LBS(Location Based Service)行動定位服務，提供門市推播功能">
             </div>
             <!-- 下 右 -->
             <div class="col-11 col-lg-7 px-lg-5 pt-5 ">
                 <div class="row pb-4 px-4 px-lg-5 mx-lg-5 justify-content-center justify-content-lg-start ">
                     <div class="col-11 p-0">
+                        <h3>門市推播 走過路過不錯過！</h3>
                         <img src="./img/point_03.png" class="" style="width: 100%;" alt="門市推播 走過路過不錯過！">
                     </div>
                 </div>
@@ -248,11 +289,14 @@
         <!-- 什麼是券村Cardo的即時信託服務？ 標題-->
         <div class="row pt-5 justify-content-around">
             <div class="col-10 col-lg-6 pt-lg-4 ">
-                <img src="./img/title_03.png" class="" style="width: 100%;" alt="什麼是券村Cardo的即時信託服務？">
+                <h2>什麼是券村Cardo的即時信託服務</h2>
+                <img src="./img/title_03.png" class="" style="width: 100%;" alt="什麼是券村Cardo的即時信託服務">
             </div>
         </div>
         <div class="row pt-4 pt-lg-5 justify-content-around ">
             <div class="col-10 col-lg-4">
+                <h3>整合信用卡價金保管預收款服務
+                </h3>
                 <img src="./img/title_03-2.png" class="" style="width: 100%;" alt="整合信用卡價金保管預收款服務">
             </div>
         </div>
@@ -267,10 +311,10 @@
         </div>
         <div class="row py-5 justify-content-around ">
             <div class="col-lg-8 d-none d-lg-block">
-                <img src="./img/chart_02.png" class="" style="width: 100%;" alt="">
+                <img src="./img/chart_02.png" class="" style="width: 100%;" alt="消費者支付款項，直接進入信託帳戶做履約保證。">
             </div>
             <div class="col-7 d-block d-lg-none">
-                <img src="./img/chart_02_phone.png" class="" style="width: 100%;" alt="">
+                <img src="./img/chart_02_phone.png" class="" style="width: 100%;" alt="消費者支付款項，直接進入信託帳戶做履約保證。">
             </div>
         </div>
 
@@ -280,30 +324,33 @@
             style="background-image:url('./img/02.jpg'); background-size: cover; background-position:center; ">
             <!-- 標題 -->
             <div class="col-8 col-lg-4 pt-lg-5 ">
-                <img src="./img/title_04.png" class="" style="width: 100%;" alt="在券村Cardo 您可以：">
+                <h2>在券村Cardo您可以：</h2>
+                <img src="./img/title_04.png" class="" style="width: 100%;" alt="">
             </div>
             <div class="w-100 "></div>
             <div class="col-10 col-lg-4 py-4 pt-lg-5">
-                <img src="./img/title_04-2.png" class="" style="width: 100%;" alt="我們提供給商家的多種便利功能 ...">
+                <h3>我們提供給商家的多種便利功能
+                </h3>
+                <img src="./img/title_04-2.png" class="" style="width: 100%;" alt="我們提供給商家的多種便利功能">
             </div>
 
 
             <div class="w-100"></div>
             <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5 ml-lg-5 ">
-                <img src="./img/icon_01.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="">
-                <p style="font:PingFang HK ; font-size: 20px; font-weight:bold;">商品核銷<br>方便管理</p>
+                <img src="./img/icon_01.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="商品管理與核銷">
+                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold;">商品核銷<br>方便管理</strong>
             </div>
             <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5">
-                <img src="./img/icon_02.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="">
-                <p style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">建立品牌 及<br>分店資訊</p>
+                <img src="./img/icon_02.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="品牌與分店資訊">
+                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">建立品牌 及<br>分店資訊</strong>
             </div>
             <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5">
-                <img src="./img/icon_03.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="">
-                <p style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">設定集點卡 及<br>會員卡活動</p>
+                <img src="./img/icon_03.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="集點卡會員卡">
+                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">設定集點卡 及<br>會員卡活動</strong>
             </div>
             <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5 mr-lg-5">
-                <img src="./img/icon_04.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="">
-                <p style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">開啟團購<br>優惠功能</p>
+                <img src="./img/icon_04.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="團購活動">
+                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">開啟團購<br>優惠功能</strong>
             </div>
         </div>
 
@@ -311,10 +358,13 @@
         <div class="row justify-content-center mt-lg-5 pt-5">
             <!-- 標題 -->
             <div class="col-4 col-lg-2 ">
+                <h2>合作品牌</h2>
                 <img src="./img/title_05.png" class="" style="width: 100%;" alt="合作品牌">
             </div>
             <div class="w-100 "></div>
             <div class="col-10 col-lg-4 pt-lg-5 py-4">
+                <h3>眾多品牌已經加入，歡迎您一起來
+                </h3>
                 <img src="./img/title_05-2.png" class="" style="width: 100%;" alt="眾多品牌已經加入，歡迎您一起來">
             </div>
         </div>
@@ -375,30 +425,31 @@
         <div class="row justify-content-lg-start justify-content-center align-items-center  py-5 "
             style="background-image:url('./img/03.jpg'); background-size: cover; background-position:center;">
             <div class="col-8 col-lg-4 offset-lg-2 pl-lg-0 py-lg-5 pb-4">
+                <h2>券村Cardo 歡迎您加入！</h2>
                 <img src="./img/slogan_02.png" class="" style="width: 100%;" alt="券村Cardo 歡迎您加入！">
                 <!-- pc -->
                 <p class="pt-5 d-none d-lg-block"
                     style="font: normal normal bold 16px Arial; font-weight:bold; color: #474848;">
-                    聯絡專線：02 - 8261-0016
+                    聯絡專線：02 -8261-0016
                     <br>聯絡信箱：eticket@yfp.com.tw<br>
                     <br>現在就連絡我們，將由專人為您服務！
                 </p>
             </div>
             <div class="col-9 col-lg-3 offset-lg-1 px-5 ">
-                <img src="./img/join_us.png" style="width: 100%;" alt="Join Us">
+                <img src="./img/join_us.png" style="width: 100%;" alt="Join Us 免月費 免上架費 您還在等什麼?">
             </div>
         </div>
         <!-- phone 現在就連絡我們，將由專人為您服務！-->
         <div class="row justify-content-center d-flex d-lg-none py-4 " style="background-color: #002B60;">
             <div class="col-auto ">
                 <p class="" style="font: normal normal bold 14px Arial; font-weight:bold; color: #ffffff;">
-                    聯絡專線：02-8261-0016
+                    聯絡專線：02 -8261-0016
                     <br>聯絡信箱：eticket@yfp.com.tw
                 </p>
             </div>
             <div class="w-100 "></div>
             <div class="col-8 ">
-                <img src="./img/tital_06.png" class="" style="width: 100%;" alt="">
+                <img src="./img/tital_06.png" class="" style="width: 100%;" alt="現在就連絡我們，將由專人為您服務！">
             </div>
         </div>
 
@@ -408,7 +459,7 @@
                 <button type="button" class="btn btn-block btn-secondary text-center"
                     style="background-color: #919191; border:0px">
                     <img src="./img/icon_shop.png" class="p-1" style="width: 30px;">
-                    <span style="font-size: 14px;">&ensp;我是商家</span>
+                    <span style="font-size: 14px;">&ensp;我是用戶</span>
                 </button>
             </div>
 
@@ -438,7 +489,7 @@
 
             <div class="w-100 "></div>
             <div class="col-5">
-                <img src="./img/cardo_logo.png" style="width: 100%;" alt="Cardo">
+                <img src="./img/cardo_logo.png" style="width: 100%;" alt="券村Cardo">
             </div>
 
             <div class="w-100 "></div>
@@ -464,16 +515,16 @@
                         <span class="nav-link active" style="font-size: 20px;font-weight:bold" href="#">券村 Cardo</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">功能說明</span>
+                        <a class="nav-link disabled" href="#">功能說明</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">客戶專區</span>
+                        <a class="nav-link" href="#">客戶專區</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled" href="#">網頁版</span>
+                        <a class="nav-link " href="https://m.yfpcardo.com/#/">網頁版</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled" href="#">常見問題</span>
+                        <a class="nav-link disabled" href="#">常見問題</a>
                     </li>
 
                 </ul>
@@ -485,10 +536,10 @@
                         <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">公司</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">關於我們</span>
+                        <a class="nav-link" href="http://www.yfp.com.tw/">關於我們</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">工作機會</span>
+                        <a class="nav-link" href="https://www.104.com.tw/company/hgrs6jc?jobsource=hi">工作機會</a>
                     </li>
                 </ul>
             </div>
@@ -499,13 +550,13 @@
                         <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">支援服務</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">說明中心</span>
+                        <span class="nav-link disabled" href="#">說明中心</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">聯絡我們</span>
+                        <span class="nav-link disabled" href="#">聯絡我們</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled" href="#">使用者條款與隱私權政策</span>
+                        <a class="nav-link " href="https://m.yfpcardo.com/#/login/useAndPrivacyTerm">使用者條款與隱私權政策</a>
                     </li>
                 </ul>
             </div>
@@ -516,7 +567,7 @@
                         <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">社群關注</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">FaceBook</span>
+                        <a class="nav-link" href="https://www.facebook.com/Cardo.Ticket">FaceBook</a>
                     </li>
                     <li class="nav-item">
                         <span class="nav-link disabled" href="#">Instagram</span>
