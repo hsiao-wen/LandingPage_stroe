@@ -38,11 +38,17 @@
             height: 1px;
             overflow: hidden;
         }
+
+        .gap {
+
+            width: 100%;
+            height: 5vh;
+        }
     </style>
 </head>
 
 
-<body style="padding-top: 55px">
+<body id="home" style="padding-top: 55px">
     <div class="container-fluid " style="max-width: 1500px;">
 
         <!--選單-->
@@ -52,7 +58,7 @@
 
             <div class="navbar-brand ml-lg-5 ml-2 " href="#">
                 <!--LOGO圖-->
-                <a id="logo" href="https://m.yfpcardo.com/#/" title="券村Cardo">
+                <a id="logo" href="#home" title="券村Cardo">
                     <img src="./img/icon_logo.png" style="max-height: 3vh;" alt="券村Cardo">
                 </a>
 
@@ -158,6 +164,8 @@
         </div>
 
         <!-- 為何要使用電子票券？ 標題-->
+        <div class="gap"></div>
+
         <div class="row mt-5 justify-content-around">
             <div class="col-8 col-lg-4 pt-lg-5">
                 <h2>為何要使用電子票券？</h2>
@@ -186,12 +194,10 @@
             </div>
 
         </div>
-
+        <div class="gap"></div>
         <!-- 券村Cardo，與眾不同 標題-->
         <div class="row pt-5 justify-content-around ">
-            <div class="col-10 pb-lg-3"
-                style=" border-top-style:dashed; border-width:2px; border-bottom-color:#002B60;">
-            </div>
+
             <div class="col-8 col-lg-4 pt-5 ">
                 <h2>券村Cardo，與眾不同</h2>
                 <img src="./img/title_02.png" class="" style="width: 100%;" alt="券村Cardo，與眾不同">
@@ -278,16 +284,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="d-block d-lg-none"
-                    style="border-bottom-style:dashed; border-width:2px; border-bottom-color:#002B60;">
-                </div>
+
             </div>
         </div>
 
-
+        <div class="gap"></div>
         <!-- 什麼是券村Cardo的即時信託服務？ 標題-->
         <div class="row pt-5 justify-content-around">
-            <div class="col-10 col-lg-6 pt-lg-4 ">
+            <div class="col-9 col-lg-4 pt-lg-5 ">
                 <h2>什麼是券村Cardo的即時信託服務</h2>
                 <img src="./img/title_03.png" class="" style="width: 100%;" alt="什麼是券村Cardo的即時信託服務">
             </div>
@@ -316,12 +320,13 @@
                 <img src="./img/chart_02_phone.png" class="" style="width: 100%;" alt="消費者支付款項，直接進入信託帳戶做履約保證。">
             </div>
         </div>
-
+        <div class="gap"></div>
 
         <!-- 在券村Cardo 您可以： -->
         <div class="row justify-content-around text-light mt-lg-5 py-5 "
             style="background-image:url('./img/02.jpg'); background-size: cover; background-position:center; ">
             <!-- 標題 -->
+            <div class="gap"></div>
             <div class="col-8 col-lg-4 pt-lg-5 ">
                 <h2>在券村Cardo您可以：</h2>
                 <img src="./img/title_04.png" class="" style="width: 100%;" alt="">
@@ -332,30 +337,38 @@
                 </h3>
                 <img src="./img/title_04-2.png" class="" style="width: 100%;" alt="我們提供給商家的多種便利功能">
             </div>
-
-
-            <div class="w-100"></div>
-            <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5 ml-lg-5 ">
-                <img src="./img/icon_01.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="商品管理與核銷">
-                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold;">商品核銷<br>方便管理</strong>
+            <div class="w-100 "></div>
+            <div class="col-12 col-lg-10 pb-lg-4">
+                <div class="row justify-content-around text-light">
+                    <div class="col-8 col-sm-3 text-center py-sm-4 pb-5 px-5 ">
+                        <img src="./img/icon_01.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-3" style="width: 100%;"
+                            alt="商品管理與核銷">
+                        <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold;">商品核銷<br>方便管理</strong>
+                    </div>
+                    <div class="col-8 col-sm-3 text-center py-sm-4 pb-5 px-5">
+                        <img src="./img/icon_02.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-3" style="width: 100%;"
+                            alt="品牌與分店資訊">
+                        <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">建立品牌 及<br>分店資訊</strong>
+                    </div>
+                    <div class="col-8 col-sm-3 text-center py-sm-4 pb-5 px-5">
+                        <img src="./img/icon_03.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-3" style="width: 100%;"
+                            alt="集點卡會員卡">
+                        <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">設定集點卡 及<br>會員卡活動</strong>
+                    </div>
+                    <div class="col-8 col-sm-3 text-center py-sm-4 pb-5 px-5">
+                        <img src="./img/icon_04.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-3" style="width: 100%;"
+                            alt="團購活動">
+                        <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">開啟團購<br>優惠功能</strong>
+                    </div>
+                </div>
             </div>
-            <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5">
-                <img src="./img/icon_02.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="品牌與分店資訊">
-                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">建立品牌 及<br>分店資訊</strong>
-            </div>
-            <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5">
-                <img src="./img/icon_03.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="集點卡會員卡">
-                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">設定集點卡 及<br>會員卡活動</strong>
-            </div>
-            <div class="col-7 col-sm-2 text-center py-sm-4 pb-lg-5 px-5 mr-lg-5">
-                <img src="./img/icon_04.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5 px-2" style="width: 100%;" alt="團購活動">
-                <strong style="font:PingFang HK ; font-size: 20px; font-weight:bold; ">開啟團購<br>優惠功能</strong>
-            </div>
+            <div class="gap"></div>
         </div>
 
         <!-- 合作品牌 標題-->
         <div class="row justify-content-center mt-lg-5 pt-5">
             <!-- 標題 -->
+            <div class="gap"></div>
             <div class="col-4 col-lg-2 ">
                 <h2>合作品牌</h2>
                 <img src="./img/title_05.png" class="" style="width: 100%;" alt="合作品牌">
@@ -368,7 +381,9 @@
             </div>
         </div>
         <!-- 合作品牌 內容-->
-        <div class="row pb-lg-5 pb-4">
+
+        <div class="row py-lg-5 pb-4">
+
             <!-- justify-content-around  -->
             <div class="col-12 col-lg-10 offset-lg-1 px-5">
 
@@ -423,7 +438,7 @@
             </div>
 
         </div>
-
+        <div class="gap"></div>
         <!-- 券村Cardo 歡迎您加入！ -->
         <div class="row justify-content-lg-start justify-content-center align-items-center  py-5 "
             style="background-image:url('./img/03.jpg'); background-size: cover; background-position:center;">
@@ -594,15 +609,33 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#btn_to_pc").click(function () {
                 $('head').append('<meta name="viewport" content="width=1280, initial-scale=1, shrink-to-fit=no">');
             });
         });
+    </script>
 
+    <script>
+        $(function () {
 
+            $("a[href^='#']").on('click', function (e) {
+
+                var $target = $($(this).attr("href"));
+
+                if ($target.length) {
+                    e.preventDefault();
+                    $("html, body").animate({
+                        scrollTop: $target.offset().top
+                    }, 1000);
+                }
+            });
+
+            return false;
+        });
     </script>
 
 </body>
